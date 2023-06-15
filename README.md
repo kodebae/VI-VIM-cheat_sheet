@@ -2,17 +2,19 @@
 VI / VIM Cheat Sheet
 
 ## Intro
-Vim works in modes, in normal modes keys have normal functionalities.
-
+> Vim works in modes, in normal modes keys have normal functionalities.
 - insert mode
 ```
-i
+i - insert, before cursor
+a - append, append after the cursor
+o - open a new line right below the curr line
 ```
+
 - exit insert mode
 ```
 <esc>
 ```
--How to get out of vim
+- how to get out of vim
 ```
 :q + <Enter>
 ```
@@ -20,7 +22,11 @@ i
 ```
 :q! + <Enter>
 ```
--write changes
+- write changes
 ```
-:w
+:w + <Enter>
+```
+- write and quit
+```
+:wq + <Enter>
 ```
