@@ -1,7 +1,8 @@
-# VI-VIM-cheat_sheet
-VI / VIM Cheat Sheet
+# 💻 VI-VIM-cheat_sheet
 
-## Intro
+- This document is intended to be a VI / VIM Cheat Sheet, or refrence material. This is a beginners guide to getting started quickly with VI/Vim. This collection includes; VI/Vim key bindings, settings, and use cases. The guide also provides a quick overview of the "text editor" and brief overall history of where it came from. 
+
+### Intro
 VI (pronounced "vee-eye") and Vim (short for "Vi IMproved") are text editors commonly used in Unix and Unix-like systems. They are known for their powerful editing capabilities and are particularly popular among programmers, system administrators, and power users.
 
 VI is the original text editor that was created in the 1970s as part of the Unix operating system. It is a command-line-based editor and is available on almost all Unix-like systems, including Linux and macOS. Vim, on the other hand, is a more advanced version of VI that was developed in the early 1990s and includes additional features and improvements.
