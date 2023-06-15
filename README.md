@@ -2,7 +2,13 @@
 VI / VIM Cheat Sheet
 
 ## Intro
-> Vim works in modes, in normal modes keys have normal functionalities.
+________________________________________________
+> Vim Documentation -> [click here to go to docs](https://www.vim.org/docs.php)
+
+<strong>Vim works in modes, in normal modes keys have normal functionalities.</strong>
+
+### Basic Vim Key Bindings
+
 - insert mode
 ```
 i - insert, before cursor
@@ -32,4 +38,8 @@ O - open a new line right above the curr line
 - write and quit
 ```
 :wq + <Enter>
+```
+- create line numbers
+```
+:set <space> number
 ```
