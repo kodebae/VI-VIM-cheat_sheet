@@ -55,7 +55,7 @@ O - open a new line right above the curr line
 ```
 - set relative number
 ```
-:set <space> relativenumber
+:set <space> relativenumber 'reorders lines to give relative location to how far away they are from the current line you are on'
 ```
 - use numbers to navigate files
 ```
@@ -63,8 +63,27 @@ O - open a new line right above the curr line
 10 + <arrow down key> 'moves cursor down 10 lines`
 substitute for the h, j, k, l keys instead of arrow keys
 ```
+- set mouse to active
+```
+:set mouse=a
+```
+- set tab stop to 4
+```
+:set tabstop=4
+```
+- set shift width to 5
+```
+:set shiftwidth=5
+```
+-choose a color scheme
+```
+:colorscheme = delek
+```
 
-
+### How to customize VI/Vim
+```
+vim ~/.vimrc
+```
 
 ### Mode Information
 
