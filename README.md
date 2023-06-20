@@ -144,4 +144,7 @@ In addition to these main modes, Vim also has several sub-modes and specialized 
 
 - Select mode: This mode is similar to visual mode, but it's more interactive and enables features like selection with mouse support. You can enter select mode by pressing "g" and then "v" in normal mode.
 
-These are some of the most commonly used modes in Vim. Each mode provides different functionality and allows you to perform specific operations efficiently.
+<strong>These are some of the most commonly used modes in Vim. Each mode provides different functionality and allows you to perform specific operations efficiently.</strong>
+
+### Additional Vim Resources
+[Vim Cheatsheet]("https://phoenixnap.com/kb/wp-content/uploads/2021/11/vim-commands-cheat-sheet-by-pnap.pdf")
