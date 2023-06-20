@@ -147,6 +147,8 @@ In addition to these main modes, Vim also has several sub-modes and specialized 
 <strong>These are some of the most commonly used modes in Vim. Each mode provides different functionality and allows you to perform specific operations efficiently.</strong>
 
 ### Additional Vim Resources
-[Vim Cheatsheet]("https://phoenixnap.com/kb/wp-content/uploads/2021/11/vim-commands-cheat-sheet-by-pnap.pdf")
-[Curated Learning Resources]("https://learnbyexample.github.io/curated_resources/vim.html")
-[Vim Tutorial For Beginners, YT Video]("https://youtu.be/RZ4p-saaQkc")
+[Vim Cheat sheet](https://phoenixnap.com/kb/wp-content/uploads/2021/11/vim-commands-cheat-sheet-by-pnap.pdf)
+
+[Curated Learning Resources](https://learnbyexample.github.io/curated_resources/vim.html)
+
+[Vim Tutorial For Beginners, YT Video](https://youtu.be/RZ4p-saaQkc)
