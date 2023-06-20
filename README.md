@@ -1,6 +1,6 @@
 # 💻 VI-VIM-cheat_sheet
 
-- This document is intended to be a VI / VIM Cheat Sheet, or refrence material. This is a beginners guide to getting started quickly with VI/Vim. This collection includes; VI/Vim key bindings, settings, and use cases. The guide also provides a quick overview of the "text editor" and brief overall history of where it came from. 
+- This document is intended to be a VI / VIM Cheat Sheet, or reference material. This is a beginners guide to getting started quickly with VI/Vim. This collection includes; VI/Vim key bindings, settings, and use cases. The guide also provides a quick overview of the "text editor" and brief overall history of where it came from.
 
 ### Intro
 VI (pronounced "vee-eye") and Vim (short for "Vi IMproved") are text editors commonly used in Unix and Unix-like systems. They are known for their powerful editing capabilities and are particularly popular among programmers, system administrators, and power users.
@@ -21,6 +21,7 @@ ________________________________________________
 
 - insert mode
 ```
+i - will put you in insert mode
 i - insert, before cursor
 I - insert at the beginning of the curr line
 a - append, append after the cursor
@@ -28,7 +29,24 @@ A - append at the end of the curr line
 o - open a new line right below the curr line
 O - open a new line right above the curr line 
 ```
-
+_____________________
+- normal mode
+```
+u - undo something
+y - yanking/copying
+p - paste what you yanked
+d - delete
+d+d - delete the entire line
+```
+______________________
+- visual mode - used for selecting
+```
+v - will put you in visual mode
+'esc' x 2 - press 'esc' twice to leave visual mode
+u - undo last change
+'ctr' + r - redo last undo
+```
+______________________
 - exit insert mode
 ```
 <esc>
@@ -49,6 +67,27 @@ O - open a new line right above the curr line
 ```
 :wq + <Enter>
 ```
+
+_______________________
+### Vim Configurations
+1. to configure your setting for Vim navigate to the vim config file in the terminal:
+```
+vi ~/.vimrc
+```
+2. enter insert mode:
+```
+i
+```
+3. change your settings:
+```
+:colorscheme dark - example setting
+```
+4. write your changes and quit
+```
+:wq
+```
+____________________
+### Vim Settings
 - create line numbers
 ```
 :set <space> number
