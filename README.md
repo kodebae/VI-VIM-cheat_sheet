@@ -1,5 +1,7 @@
 # 💻 VI-VIM-cheat_sheet
 
+> Vim Documentation -> [click here to go to docs](https://www.vim.org/docs.php)
+
 - This document is intended to be a VI / VIM Cheat Sheet, or reference material. This is a beginners guide to getting started quickly with VI/Vim. This collection includes; VI/Vim key bindings, settings, and use cases. The guide also provides a quick overview of the "text editor" and brief overall history of where it came from.
 
 ### Intro
@@ -13,7 +15,6 @@ Vim offers numerous features that make it a powerful text editor, including synt
 
 Despite having a steep learning curve, VI/Vim is appreciated by many users for its efficiency and productivity once mastered. It is often preferred for editing configuration files, writing code, and performing various text manipulation tasks from the command line.
 ________________________________________________
-> Vim Documentation -> [click here to go to docs](https://www.vim.org/docs.php)
 
 <strong>Vim works in modes, in normal mode/command mode keys have normal functionalities.</strong>
 
