@@ -45,6 +45,10 @@ v - will put you in visual mode
 'esc' x 2 - press 'esc' twice to leave visual mode
 u - undo last change
 'ctr' + r - redo last undo
+- if you mark something in visual mode you can delete it with d
+'d' - delete
+'d+w' - delete word
+'e' jump to the end of a word
 ```
 ______________________
 - exit insert mode
@@ -118,7 +122,6 @@ substitute for the h, j, k, l keys instead of arrow keys
 ```
 :colorscheme = delek
 ```
-
 ### How to customize VI/Vim
 ```
 vim ~/.vimrc
@@ -148,3 +151,5 @@ In addition to these main modes, Vim also has several sub-modes and specialized 
 
 ### Additional Vim Resources
 [Vim Cheatsheet]("https://phoenixnap.com/kb/wp-content/uploads/2021/11/vim-commands-cheat-sheet-by-pnap.pdf")
+[Curated Learning Resources]("https://learnbyexample.github.io/curated_resources/vim.html")
+[Vim Tutorial For Beginners, YT Video]("https://youtu.be/RZ4p-saaQkc")
