@@ -72,6 +72,12 @@ ______________________
 ```
 :wq + <Enter>
 ```
+- use numbers to navigate files
+```
+5 + <arrow right key> 'moves cursor 5 places to the left'
+10 + <arrow down key> 'moves cursor down 10 lines`
+substitute for the h, j, k, l keys instead of arrow keys
+```
 
 _______________________
 ### Vim Configurations
@@ -101,12 +107,6 @@ ____________________
 ```
 :set <space> relativenumber 'reorders lines to give relative location to how far away they are from the current line you are on'
 ```
-- use numbers to navigate files
-```
-5 + <arrow right key> 'moves cursor 5 places to the left'
-10 + <arrow down key> 'moves cursor down 10 lines`
-substitute for the h, j, k, l keys instead of arrow keys
-```
 - set mouse to active
 ```
 :set mouse=a
@@ -122,10 +122,6 @@ substitute for the h, j, k, l keys instead of arrow keys
 -choose a color scheme
 ```
 :colorscheme = delek
-```
-### How to customize VI/Vim
-```
-vim ~/.vimrc
 ```
 
 ### Mode Information
